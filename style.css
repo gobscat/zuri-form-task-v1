@@ -1,0 +1,158 @@
+*{margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+}
+@import url(https://fonts.google.com/specimen/Poppins);
+  body{
+    background-image: url('bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .main-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  
+  } 
+  .form-container{
+    width:40vw;
+    
+  }
+  form{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  form input{
+    width: 23vw;
+    height: 5vh;
+    padding: 15px;
+    font-weight: bold;
+  }
+  form div{
+    line-height: 1.5cm;
+  }
+  .first-btn{
+    width: 25vw;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+}
+.second-btn{
+    width: 23vw;
+    padding: 10px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-family: "poppins",sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.mb{
+    margin-bottom: 0.5cm;
+}
+.small-text{
+    font-family: 'poppins',sans-serif;
+    font-weight: 400;
+}
+
+.p-text{
+    font-family: 'poppins',sans-serif;
+    font-weight:400;
+    font-size:  0.5rem;
+    padding: none;
+    color: hsl(246, 25%, 77%);
+}
+
+.p-text-2{
+    font-family: 'poppins',sans-serif;
+    font-weight:400;
+    font-size: small;
+        color: white;}
+a{
+    color: red;
+    text-decoration: none;
+}.main-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:35vw;
+    margin-left: 200px;
+    padding: 20px;
+  
+    
+    
+
+
+}
+h1{
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+  
+
+@media (max-width:576px){
+  body{
+background-image: url(./bg-intro-mobile.png);
+height: 100%;
+  }
+  .main-container{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+.main-text{
+  margin: 0;
+  width:50vw;
+  font-size: 0.8rem;
+  text-align: center;
+}
+form{
+  width: 100%;
+}
+.first-btn{
+  width:38vw ;
+  height: 15vh;
+  text-align: center;
+  
+}
+.second-btn{
+  width: 35vw;
+}
+form input{
+  width: 35vw;
+}
+.p-text{
+  text-align: center;
+}
+}
